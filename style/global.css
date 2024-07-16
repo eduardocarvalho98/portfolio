@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-family-title: 'Asap', sans-serif;
+    --font-family-subtitle: 'Inconsolata', sans-serif;
+    --font-family-text: 'Maven Pro', sans-serif;
+    --h1: 800 56px/120% var(--font-family-title);
+    --h2: 800 24px/120% var(--font-family-title);
+    --h3: 800 16px/120% var(--font-family-title);
+    --text-subtitle: 500 20px/120% var(--font-family-subtitle);
+    --text-md: 500 16px/140% var(--font-family-text);
+    --text-sm: 500 14px/140% var(--font-family-text);
+    --gray-500: #C0C4CE;
+    --gray-400: #878EA1;
+    --gray-300: #292C34;
+    --red: #E3646E;
+
+}
+img{
+    max-width: 100%;
+}
+body{
+    color: var(--gray-500)
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1, h2, h3{
+    font: inherit;
+}
